@@ -151,7 +151,7 @@ function Start() {
   if [ -f "/tmp/InstallNET.sh" ]; then
     rm -f /tmp/InstallNET.sh
   fi
-  wget --no-check-certificate -qO /tmp/InstallNET.sh 'https://github.com/zyings/DDscript/blob/93547b84bd5a34bf3f8ede2b8b8cdf72345dcdc7/InstallNET.sh' && chmod a+x /tmp/InstallNET.sh
+  wget --no-check-certificate -qO /tmp/InstallNET.sh 'https://raw.githubusercontent.com/zyings/DDscript/master/AutoDD.sh' && chmod a+x /tmp/InstallNET.sh
   
   CMIRROR=''
   CVMIRROR=''
